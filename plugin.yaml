@@ -1,0 +1,7 @@
+---
+name: "nuke"
+version: "0.1.0"
+usage: "delete and purge all releases"
+description: "delete and purge all releases"
+useTunnel: true
+command: "$HELM_PLUGIN_DIR/nuke.sh"
