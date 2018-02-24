@@ -15,5 +15,5 @@ if [[ -n "${releases}" ]]; then
 fi
 
 echo
-echo "Deleting any rouge configmaps for good measure"
+echo "Deleting any rogue configmaps for good measure"
 kubectl -n kube-system delete configmap --selector=OWNER=TILLER
